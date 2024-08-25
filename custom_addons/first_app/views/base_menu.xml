@@ -1,0 +1,6 @@
+<odoo>
+    <menuitem id="real_estate_base_menu" name="Real Estate" web_icon="first_app,static/icon.png"/>
+    <menuitem id="properties_menu" name="Properties" parent="real_estate_base_menu" action="property_action"/>
+    <menuitem id="owners_menu" name="Owners" parent="real_estate_base_menu" action="owner_action"/>
+
+</odoo>
